@@ -1,6 +1,6 @@
 pkg_name=GameOfLife
 pkg_origin=GameOfLifeHabitat
-pkg_version="GOL-1.0.0"
+pkg_version="GOL-2.0.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('Apache-2.0')
 pkg_source="https://github.com/nvtuluva/GameOfLife"
