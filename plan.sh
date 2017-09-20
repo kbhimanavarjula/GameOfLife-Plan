@@ -1,10 +1,10 @@
 pkg_name=GameOfLife
-pkg_origin=GameOfLifeHabitat
+pkg_origin=kbhimanavarjula
 pkg_version="GOL-2.0.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('Apache-2.0')
-pkg_source="https://github.com/nvtuluva/GameOfLife"
-pkg_shasum="2c1a9dfb501d75811abc1f3cd765e4cad3add3131dc8fa37fbf1c828bb103ad8"
+pkg_source="https://github.com/kbhimanavarjula/GameOfLife"
+#pkg_shasum="2c1a9dfb501d75811abc1f3cd765e4cad3add3131dc8fa37fbf1c828bb103ad8"
 pkg_deps=(core/tomcat8)  
 pkg_build_deps=(core/git core/maven)
 pkg_expose=(8080)  
@@ -24,7 +24,7 @@ do_download()
 
         mkdir ${pkg_dirname}  
         cd ${pkg_dirname}  
-        GIT_SSL_NO_VERIFY=true git clone --branch master https://github.com/nvtuluva/GameOfLife.git  
+        GIT_SSL_NO_VERIFY=true git clone --branch master https://github.com/kbhimanavarjula/GameOfLife  
         return 0  
     }
 do_clean()  
